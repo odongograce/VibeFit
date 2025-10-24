@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "4f37",
+      "name": "Grace Odongo",
+      "email": "grace@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "be52",
+      "name": "Linda mildred",
+      "email": "linda@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "9db9",
+      "name": "Michael Kinyua",
+      "email": "michaelkinyua@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e6fa",
+      "name": "Mark Kinyua",
+      "email": "marklkinyua@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "62d0",
+      "name": "Abiud Nanjira",
+      "email": "abiudnanjira@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "9b70",
+      "name": "Ian",
+      "email": "ian@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "7779",
+      "name": "Irene ",
+      "email": "Irene@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "985a",
+      "name": "James",
+      "email": "james@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "5c09",
+      "name": "Grace Akinyi Odongo",
+      "email": "akinyigrace@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1521",
+      "name": "Gloria Moraa",
+      "email": "gloria@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3f02",
+      "name": "Gloria KK",
+      "email": "gloriakk@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "35e7",
+      "name": "Fortune",
+      "email": "fortune@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e8b6",
+      "name": "Fred ",
+      "email": "fred@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "workouts": [
+    {
+      "id": "1",
+      "mood": "tired",
+      "title": "Gentle Stretch & Recover",
+      "description": "10-minute stretch to relax your muscles and reset your energy."
+    },
+    {
+      "id": "2",
+      "mood": "energized",
+      "title": "Power HIIT Blast",
+      "description": "Quick 15-minute workout with squats, burpees, and pushups!"
+    },
+    {
+      "id": "3",
+      "mood": "stressed",
+      "title": "Calming Yoga Flow",
+      "description": "Breathe and flow through simple poses to reduce tension."
+    },
+    {
+      "id": "4",
+      "mood": "happy",
+      "title": "Dance Party Workout",
+      "description": "Celebrate your mood with a fun dance routine to upbeat music!"
+    }
+  ],
+  "equipment": [
+    {
+      "id": 1,
+      "name": "Yoga Mat",
+      "price": 2500,
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "img": "https://i.pinimg.com/736x/87/39/2b/87392b0cf815f965273c43d50f96913c.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dumbbells (Set of 2)",
+      "price": 4500,
+      "sizes": [
+        "5kg",
+        "10kg",
+        "15kg"
+      ],
+      "img": "https://i.pinimg.com/736x/30/f4/f1/30f4f1768a9d4dc4a0e52e09e379e1a8.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Resistance Bands",
+      "price": 1800,
+      "sizes": [
+        "Light",
+        "Medium",
+        "Heavy"
+      ],
+      "img": "https://i.pinimg.com/736x/f1/15/23/f115238c15a403780dc87d3384221e29.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Treadmill",
+      "price": 65000,
+      "sizes": [
+        "Standard"
+      ],
+      "img": "https://i.pinimg.com/736x/5f/0c/da/5f0cda7067e4dc434a3d3737a297aa19.jpg"
+    }
+  ],
+  "groupWorkouts": [
+    {
+      "id": 1,
+      "title": "Aerobics Class",
+      "video": "https://www.youtube.com/embed/WtAoNYnlf0E",
+      "description": "A fun, high-energy session combining cardio and rhythm. Great for burning calories and improving coordination."
+    },
+    {
+      "id": 2,
+      "title": "Karate Class",
+      "video": "https://www.youtube.com/embed/t9sC8Zy6yhc",
+      "description": "Build discipline and strength through traditional karate moves. Perfect for all experience levels."
+    }
+  ],
+  "strengthCardio": [
+    {
+      "id": 1,
+      "title": "Strength Training",
+      "video": "https://www.youtube.com/embed/U0bhE67HuDY",
+      "description": "Boost your muscle power and endurance with guided strength routines using weights and body resistance."
+    },
+    {
+      "id": 2,
+      "title": "Cardio Workout",
+      "video": "https://www.youtube.com/embed/ml6cT4AZdqI",
+      "description": "Increase stamina and heart health with effective cardio exercises that keep you motivated."
+    }
+  ]
+}
