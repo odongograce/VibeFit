@@ -1,7 +1,7 @@
 :root {
   --primary: blue;
   --accent: green;
-  --background: #f8f9fa;
+  --background:  #e6e6e6;
   --text: #212529;
 }
 
@@ -104,7 +104,7 @@ body {
 
 
 #about {
-  background-color: #f9f9fb;
+  background-color: rgba(183, 43, 226, 0.123);
   border-radius: 20px;
   max-width: 90%;
   margin: 3rem auto;
@@ -156,10 +156,11 @@ body {
 
 
 .contact-section {
-  background-image: url("https://i.pinimg.com/1200x/32/3a/95/323a951061c945046d59c451390513c8.jpg");
-  max-width: 100%;
+  background-image: url("https://i.pinimg.com/1200x/64/95/90/6495906face286999a890d16d9f1d15d.jpg");
+  max-width: 100%; 
+   min-height: 50vh;
   margin: 3rem auto;
-  padding: 60px 20px;
+
   text-align: center;
 }
 
@@ -167,7 +168,7 @@ body {
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 1rem;
+ 
 }
 
 .contact-info {
@@ -179,26 +180,3 @@ body {
   margin: 8px 0;
 }
 
-
-.footer {
-  background-color: #0056b3;
-  color: #ccc;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 2rem 0;
-}
-
-.footer-inner {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-.footer p {
-  line-height: 2;
-}
-
-.footer-bottom {
-  font-size: 0.9rem;
-  color: #aaa;
-  text-align: center;
-  padding-top: 5px;
-}

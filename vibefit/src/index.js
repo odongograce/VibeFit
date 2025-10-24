@@ -10,11 +10,11 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Login from './components/Login';
 import Register from './components/Register';
-
+import ServiceDetails from './components/ServiceDetails';
 import Dashboard from './components/Dashboard';
-import EquipmentShop from './components/EquipmentShop';
-import GroupWorkouts from './components/GroupWorkouts';
-import StrengthCardio from './components/StrengthCardio';
+// import EquipmentShop from './components/EquipmentShop';
+// import GroupWorkouts from './components/GroupWorkouts';
+// import StrengthCardio from './components/StrengthCardio';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
@@ -24,10 +24,11 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/services/:serviceType" element={<ServiceDetails />} />
 
-      <Route path="/services/equipment" element={<EquipmentShop />} />
+      {/* <Route path="/services/equipment" element={<EquipmentShop />} />
       <Route path="/services/group-workouts" element={<GroupWorkouts />} />
-      <Route path="/services/strength-cardio" element={<StrengthCardio />} />
+      <Route path="/services/strength-cardio" element={<StrengthCardio />} /> */}
 
       <Route path="/contact" element={<Contact />} />
       <Route path="/login" element={<Login />} />

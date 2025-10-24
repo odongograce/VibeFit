@@ -8,14 +8,15 @@ const StrengthCardio = () => {
     fetch("http://localhost:3002/strengthCardio")
       .then((res) => res.json())
       .then((data) => setVideos(data))
-      .catch((err) => console.error("Error loading strength & cardio:", err));
+      
   }, []);
 
   return (
     <div className="container py-5">
-      <Link to="/services" className="btn btn-outline-primary mb-4">
-        ← Back to Services
-      </Link>
+      
+              <Link to="/services" className="btn btn-outline-primary">
+                Back to Services
+              </Link>
       <h1 className="text-center text-primary fw-bold mb-4">
         Strength & Cardio Training
       </h1>

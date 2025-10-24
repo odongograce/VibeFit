@@ -115,18 +115,18 @@
         "Medium",
         "Large"
       ],
-      "img": "https://i.pinimg.com/736x/87/39/2b/87392b0cf815f965273c43d50f96913c.jpg"
+      "img": "https://i.pinimg.com/736x/54/85/5c/54855cd891e77c9d3ad0376b24a6b915.jpg"
     },
     {
       "id": 2,
-      "name": "Dumbbells (Set of 2)",
-      "price": 4500,
+      "name": "Wrist Strips",
+      "price": 1500,
       "sizes": [
-        "5kg",
-        "10kg",
-        "15kg"
+        "Small",
+        "Medium",
+        "Large"
       ],
-      "img": "https://i.pinimg.com/736x/30/f4/f1/30f4f1768a9d4dc4a0e52e09e379e1a8.jpg"
+      "img": "https://i.pinimg.com/736x/57/bb/04/57bb04cb13d3e82e04b3d1a919b7ea0d.jpg"
     },
     {
       "id": 3,
@@ -137,16 +137,40 @@
         "Medium",
         "Heavy"
       ],
-      "img": "https://i.pinimg.com/736x/f1/15/23/f115238c15a403780dc87d3384221e29.jpg"
+      "img": "https://i.pinimg.com/1200x/11/38/cf/1138cfa120fc95863c0d08f203c91cbb.jpg"
     },
     {
       "id": 4,
-      "name": "Treadmill",
-      "price": 65000,
+      "name": "Gloves",
+      "price": 1000,
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "img": "https://i.pinimg.com/736x/fe/da/1a/feda1a3f2143f0061749a6de95c8f7a5.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Knee Wrap",
+      "price": 2500,
       "sizes": [
         "Standard"
+        
       ],
-      "img": "https://i.pinimg.com/736x/5f/0c/da/5f0cda7067e4dc434a3d3737a297aa19.jpg"
+      "img": "https://i.pinimg.com/1200x/35/f1/b4/35f1b4d3783fe9327146f37c54798f26.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Weight Lifting belt",
+      "price": 2500,
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+        
+      ],
+      "img": "https://i.pinimg.com/1200x/41/d2/17/41d217e5219479114524b4bbe41f221b.jpg"
     }
   ],
   "groupWorkouts": [

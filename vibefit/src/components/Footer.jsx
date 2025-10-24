@@ -1,19 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="footer text-light py-4 mt-5">
-      <div className="container footer-inner d-flex flex-column flex-md-row justify-content-between align-items-center">
-        <div className="f-col text-center text-md-start mb-3 mb-md-0">
-          <h3 className="logo text-warning fw-bold fs-3 mb-2">VibeFit</h3>
-          <p className="text-muted small mb-0">
-            At <strong>VibeFit</strong>, we believe fitness is more than a routine — it's a lifestyle.  
-            Join our community and find your rhythm, your strength, your vibe.
-          </p>
+    <footer className="bg-dark text-warning py-4 mt-5 shadow-sm">
+      <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        
+       
+        <div className="mb-3 mb-md-0 text-center text-md-start">
+          <h3 className="fw-bold fs-3 mb-2">VibeFit</h3>
+          
         </div>
 
-        <div className="footer-bottom text-center mt-3 mt-md-0">
-          © All rights reserved.
+        <ul className="nav justify-content-center mb-3 mb-md-0">
+          
+          <li className="nav-item">
+            <Link className="nav-link text-warning" to="/about">About</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link text-warning" to="/services">Services</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link text-warning" to="/contact">Contact</Link>
+          </li>
+        </ul>
+
+      
+        <div className="text-center text-md-end text-light small">
+          © 2025 VibeFit. All rights reserved.
         </div>
       </div>
     </footer>
