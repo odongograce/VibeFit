@@ -80,21 +80,21 @@ http://localhost:3000
 
 🌱 Learning Highlights
 
-Through building VibeFit, I learned:
+- Through building VibeFit, I learned:
 
-React component structure & reusable UI patterns
+- React component structure & reusable UI patterns
 
-State management & dynamic rendering
+- State management & dynamic rendering
 
-Personalized dashboards
+- Personalized dashboards
 
-Routing & protected routes
+- Routing & protected routes
 
-Using JSON Server to simulate APIs
+- Using JSON Server to simulate APIs
 
-Bootstrap styling & responsive layouts
+- Bootstrap styling & responsive layouts
 
-UI/UX thinking when designing landing pages
+- UI/UX thinking when designing landing pages
 
 📬 Contact
 
